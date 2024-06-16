@@ -80,6 +80,15 @@ h6 {
     font-size: 0.7rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 1.6;
+}
+
 /* **** Components **** */
 
 /* **** Utilities **** */
