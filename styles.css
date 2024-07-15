@@ -17,6 +17,7 @@
     --white-alpha-color: rgba(255, 255, 255, 0.5);
     --black-alpha-color: rgba(0, 0, 0, 0.5);
     --font: "Raleway", sans-serif;
+    --max-width: 1200px;
 }
 
 /* **** Reset **** */
@@ -95,6 +96,12 @@ p {
 
 .box-shadow-1 {
     box-shadow: .25rem .25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
 }
 
 /* **** Site Styles **** */
