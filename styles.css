@@ -123,7 +123,14 @@ p {
     left: 0;
     bottom: 0;
     z-index: 999;
+    padding: 1rem;
     width: 100%;
     height: var(--header-height);
     background-color: var(--second-color);
+}
+
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
